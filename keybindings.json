@@ -23,5 +23,10 @@
     {
         "key": "ctrl+k ctrl+x",
         "command": "workbench.extensions.action.showInstalledExtensions"
+    },
+    /* Focus the editor */
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "workbench.action.focusActiveEditorGroup"
     }
 ]
