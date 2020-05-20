@@ -1,25 +1,31 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "InternetstormBold",
-    "editor.fontFamily": "Hack",
+    "workbench.colorTheme": "Night Owl",
+    "editor.fontFamily": "JetBrains Mono",
     "window.zoomLevel": 0,
     "workbench.iconTheme": "vscode-icons",
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 150,
-    "editor.fontSize": 16,
+    "editor.fontSize": 18,
+    //"editor.renderWhitespace": "all"
+    "editor.letterSpacing": 0,
+
     "[html]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
     "css.lint.zeroUnits": "warning",
     "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
 
+
     // Status bar
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    /* comento. es del tema darcula esto:
     "workbench.colorCustomizations": {
         "statusBar.background": "#2b2b2b",
         "statusBar.foreground": "#a9b7c6",
         "statusBarItem.hoverBackground": "#323232"
-    },
+    },*/
     "liveServer.settings.donotShowInfoMsg": true,
     "files.associations": {
         "*.html": "html"
