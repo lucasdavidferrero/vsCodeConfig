@@ -1,10 +1,5 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "ctrl+n",
-        "command": "-workbench.action.files.newUntitledFile"
-    },
-
     /**
             ** Activity Bar **
     **/
@@ -24,9 +19,38 @@
         "key": "ctrl+k ctrl+x",
         "command": "workbench.extensions.action.showInstalledExtensions"
     },
+    {
+        "key": "ctrl+k ctrl+m",
+        "command": "editor.action.toggleMinimap"
+    },
+
     /* Focus the editor */
     {
         "key": "ctrl+e ctrl+e",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+
+    /**
+    * File Explorer
+    **/
+    {
+        "key": "ctrl+d",
+        "command": "duplicate.execute",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "shift+ctrl+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.files.action.refreshFilesExplorer",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     }
 ]
