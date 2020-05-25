@@ -2,12 +2,11 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Night Owl",
     "editor.fontFamily": "JetBrains Mono",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1.2,
     "workbench.iconTheme": "vscode-icons",
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 150,
-    "editor.fontSize": 18,
-    //"editor.renderWhitespace": "all"
+    "editor.fontSize": 14,
     "editor.letterSpacing": 0,
 
     "[html]": {
@@ -17,22 +16,28 @@
     "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
 
 
-    // Status bar
-    "workbench.statusBar.visible": false,
-    "breadcrumbs.enabled": false,
-    /* comento. es del tema darcula esto:
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#2b2b2b",
-        "statusBar.foreground": "#a9b7c6",
-        "statusBarItem.hoverBackground": "#323232"
-    },*/
     "liveServer.settings.donotShowInfoMsg": true,
     "files.associations": {
         "*.html": "html"
     },
+    
+    /* Uso espacios en vez de tabs en css y scss*/
+    "[css]": {
+        "editor.insertSpaces": true,
+    },
+    "[scss]": {
+        "editor.insertSpaces": true,
+    },
+
     /* 
         ## Silence the noise ##
     */
     "workbench.activityBar.visible": false,
-    "explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    
 }
