@@ -1,8 +1,9 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Night Owl",
+    "workbench.colorTheme": "Ayu Light",
     "editor.fontFamily": "JetBrains Mono",
-    "window.zoomLevel": 1.2,
+    "window.zoomLevel": 1,
+    "window.title": "🤯${separator}${activeEditorShort}${separator}${rootName}",
     "workbench.iconTheme": "vscode-icons",
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 150,
@@ -38,6 +39,9 @@
     "workbench.statusBar.visible": false,
     "breadcrumbs.enabled": false,
     "workbench.sideBar.location": "right",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "liveServer.settings.donotVerifyTags": true,
+    "todo-tree.tree.showScanModeButton": false,
+    "workbench.settings.editor": "json"
     
 }
